@@ -106,11 +106,17 @@ This data was put together in a Python 3 environment. Specifically, the
 Anaconda and Jupyter Notebook environment using the following packages:
 
 Pandas
+
 Numpy
+
 Sci-kit learn
+
 matplotlib
+
 seaborn
+
 joblib
+
 
 It is recommended to import the data into your environment from the
 provided data files and begin analysis from there. For Python 3, we recommend
