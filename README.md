@@ -380,205 +380,399 @@ the dataset.
 4.1 Advanced Countries List
 
 Andorra
+
 Australia
+
 Austria
+
 Belgium
+
 Canada
+
 Croatia
+
 Cyprus
+
 Czech Republic
+
 Denmark
+
 Estonia
+
 Finland
+
 France
+
 Germany
+
 Greece
+
 Hong Kong SAR
+
 Iceland
+
 Ireland
+
 Israel
+
 Italy
+
 Japan
+
 Korea
+
 Latvia
+
 Lithuania
+
 Luxembourg
+
 Macao SAR
+
 Malta
+
 Netherlands
+
 New Zealand
+
 Norway
+
 Portugal
+
 Puerto Rico
+
 San Marino
+
 Singapore
+
 Slovak Republic
+
 Slovenia
+
 Spain
+
 Sweden
+
 Switzerland
+
 Taiwan Province of China
+
 United Kingdom
+
 United States
 
 ------------------------------------------------------------------------------
 4.2  Developing Countries List
 
 Afghanistan
+
 Albania
+
 Algeria
+
 Angola
+
 Antigua and Barbuda
+
 Argentina
+
 Armenia
+
 Aruba
+
 Azerbaijan
+
 The Bahamas
+
 Bahrain
+
 Bangladesh
+
 Barbados
+
 Belarus
+
 Belize
+
 Benin
+
 Bhutan
+
 Bolivia
+
 Bosnia and Herzegovina
+
 Botswana
+
 Brazil
+
 Brunei Darussalam
+
 Bulgaria
+
 Burkina Faso
+
 Burundi
+
 Cabo Verde
+
 Cambodia
+
 Cameroon
+
 Central African Republic
+
 Chad
+
 Chile
+
 China 
+
 Colombia
+
 Comoros
+
 Democratic Republic of the Congo 
+
 Republic of Congo
+
 Costa Rica
+
 Côte d'Ivoire
+
 Djibouti
+
 Dominica
+
 Dominican Republic
+
 Ecuador
+
 Egypt
+
 El Salvador
+
 Equatorial Guinea
+
 Eritrea
+
 Eswatini
+
 Ethiopia
+
 Fiji
+
 Gabon
+
 The Gambia
+
 Georgia
+
 Ghana
+
 Grenada
+
 Guatemala
+
 Guinea
+
 Guinea-Bissau
+
 Guyana
+
 Haiti
+
 Honduras
+
 Hungary
+
 India
+
 Indonesia
+
 Islamic Republic of Iran
+
 Iraq
+
 Jamaica
+
 Jordan
+
 Kazakhstan
+
 Kenya
+
 Kiribati
+
 Kosovo
+
 Kuwait
+
 Kyrgyz Republic
+
 Lao P.D.R.
+
 Lebanon
+
 Lesotho
+
 Liberia
+
 Libya
+
 Madagascar
+
 Malawi
+
 Malaysia
+
 Maldives
+
 Mali
+
 Marshall Islands
+
 Mauritania
+
 Mauritius
+
 Mexico
+
 Micronesia
+
 Moldova
+
 Mongolia
+
 Montenegro
+
 Morocco
+
 Mozambique
+
 Myanmar
+
 Namibia
+
 Nauru
+
 Nepal
+
 Nicaragua
+
 Niger
+
 Nigeria
+
 North Macedonia
+
 Oman
+
 Pakistan
+
 Palau
+
 Panama
+
 Papua New Guinea
+
 Paraguay
+
 Peru
+
 Philippines
+
 Poland
+
 Qatar
+
 Romania
+
 Russia
+
 Rwanda
+
 Samoa
+
 São Tomé and Príncipe
+
 Saudi Arabia
+
 Senegal
+
 Serbia
+
 Seychelles
+
 Sierra Leone
+
 Solomon Islands
+
 Somalia
+
 South Africa
+
 South Sudan
+
 Sri Lanka
+
 St. Kitts and Nevis
+
 St. Lucia
+
 St. Vincent and the Grenadines
+
 Sudan
+
 Suriname
+
 Syria - Of note Syria is dropped in our dataset due to no data being collected
         since 2011 due to the ongoing Syrian Civil War
+
 Tajikistan
+
 Tanzania
+
 Thailand
+
 Timor-Leste
+
 Togo
+
 Tonga
+
 Trinidad and Tobago
+
 Tunisia
+
 Türkiye
+
 Turkmenistan
+
 Tuvalu
+
 Uganda
+
 Ukraine
+
 United Arab Emirates
+
 Uruguay
+
 Uzbekistan
+
 Vanuatu
+
 Venezuela
+
 Vietnam
+
 West Bank and Gaza
+
 Yemen
+
 Zambia
+
 Zimbabwe
 
 <end of file>
