@@ -7,45 +7,30 @@ Updated: June 09, 2024
 
 README CONTENTS
 
-0.1 Contact Information
-
-1.0 Release Contents
-
-1.1 Introduction
-
-1.2 Acknowledgements
-
-1.3 Rights Information
-
-1.4 Using this Database
-
-1.5 Revision History
-
-2.0 Data Tables
-
-2.1 Original IMF Format
-
-2.2 Processed Data Set Features
-
-2.3 Target
-
-2.4 Supervised Algorithms
-
-2.5 Clustering
-
-3.0 Results
-
-3.1 Supervised Results
-
-3.2 Clustering
-
-3.3 Conclusion
-
-4.0 Appendix
-
-4.1 Advanced Countries List
-
-4.2  Developing Countries List
+	0.1 Contact Information
+	
+	1.0 Release Contents
+	1.1 Introduction
+	1.2 Acknowledgements
+	1.3 Rights Information
+	1.4 Using this Database
+	1.5 Revision History
+	
+	2.0 Data Tables
+	2.1 Original IMF Format
+	2.2 Processed Data Set Features
+	2.3 Target
+	2.4 Supervised Algorithms
+	2.5 Clustering
+	
+	3.0 Results
+	3.1 Supervised Results
+	3.2 Clustering
+	3.3 Conclusion
+	
+	4.0 Appendix
+	4.1 Advanced Countries List
+	4.2  Developing Countries List
 
 ------------------------------------------------------------------------------
 0.1 Contact Information
@@ -154,91 +139,52 @@ We preprocess the dataset to remove employment in persons, as it is only
 collected by advanced economies and two columns that would be duplicated after
 coversion of national currencies to US dollars.
 
-0   Gross domestic product, constant prices in US dollars
-
-1   Gross domestic product, constant prices in Percent change
-
-2   Gross domestic product, current prices in U.S. dollars
-
-3   Gross domestic product, current prices in Purchasing power parity;
-    international dollars
-    
-4   Gross domestic product, deflator in Index
-
-5   Gross domestic product per capita, constant prices in US dollars
-
-6   Gross domestic product per capita, constant prices in Purchasing power
-    parity; 2017 international dollar
-    
-7   Gross domestic product per capita, current prices in U.S. dollars
-
-8   Gross domestic product per capita, current prices in Purchasing power
-    parity; international dollars
-    
-9   Gross domestic product based on purchasing-power-parity (PPP) share of
-    world total in Percent
-    
-10  Implied PPP conversion rate in National currency per current international
-    dollar
-    
-11  Total investment in Percent of GDP
-
-12  Gross national savings in Percent of GDP
-
-13  Inflation, average consumer prices in Index
-
-14  Inflation, average consumer prices in Percent change
-
-15  Inflation, end of period consumer prices in Index
-
-16  Inflation, end of period consumer prices in Percent change
-
-17  Volume of imports of goods and services in Percent change
-
-18  Volume of Imports of goods in Percent change
-
-19  Volume of exports of goods and services in Percent change
-
-20  Volume of exports of goods in Percent change
-
-21  Unemployment rate in Percent of total labor force
-
-22  Population in Persons
-
-23  General government revenue in US dollars
-
-24  General government revenue in Percent of GDP
-
-25  General government total expenditure in US dollars
-
-26  General government total expenditure in Percent of GDP
-
-27  General government net lending/borrowing in US dollars
-
-28  General government net lending/borrowing in Percent of GDP
-
-29  General government structural balance in US dollars
-
-30  General government structural balance in Percent of potential GDP
-
-31  General government primary net lending/borrowing in US dollars
-
-32  General government primary net lending/borrowing in Percent of GDP
-
-33  General government net debt in US dollars
-
-34  General government net debt in Percent of GDP
-
-35  General government gross debt in US dollars
-
-36  General government gross debt in Percent of GDP
-
-37  Gross domestic product corresponding to fiscal year, current prices in US
-    dollars
-    
-38  Current account balance in U.S. dollars
-
-39  Current account balance in Percent of GDP
+	0   Gross domestic product, constant prices in US dollars
+	1   Gross domestic product, constant prices in Percent change
+	2   Gross domestic product, current prices in U.S. dollars
+	3   Gross domestic product, current prices in Purchasing power parity;
+	    international dollars
+	4   Gross domestic product, deflator in Index
+	5   Gross domestic product per capita, constant prices in US dollars
+	6   Gross domestic product per capita, constant prices in Purchasing power
+	    parity; 2017 international dollar
+	7   Gross domestic product per capita, current prices in U.S. dollars
+	8   Gross domestic product per capita, current prices in Purchasing power
+	    parity; international dollars
+	9   Gross domestic product based on purchasing-power-parity (PPP) share of
+	    world total in Percent 
+	10  Implied PPP conversion rate in National currency per current international
+	    dollar
+	11  Total investment in Percent of GDP
+	12  Gross national savings in Percent of GDP
+	13  Inflation, average consumer prices in Index
+	14  Inflation, average consumer prices in Percent change
+	15  Inflation, end of period consumer prices in Index
+	16  Inflation, end of period consumer prices in Percent change
+	17  Volume of imports of goods and services in Percent change
+	18  Volume of Imports of goods in Percent change
+	19  Volume of exports of goods and services in Percent change
+	20  Volume of exports of goods in Percent change
+	21  Unemployment rate in Percent of total labor force
+	22  Population in Persons
+	23  General government revenue in US dollars
+	24  General government revenue in Percent of GDP
+	25  General government total expenditure in US dollars
+	26  General government total expenditure in Percent of GDP
+	27  General government net lending/borrowing in US dollars
+	28  General government net lending/borrowing in Percent of GDP
+	29  General government structural balance in US dollars
+	30  General government structural balance in Percent of potential GDP
+	31  General government primary net lending/borrowing in US dollars
+	32  General government primary net lending/borrowing in Percent of GDP
+	33  General government net debt in US dollars
+	34  General government net debt in Percent of GDP
+	35  General government gross debt in US dollars
+	36  General government gross debt in Percent of GDP
+	37  Gross domestic product corresponding to fiscal year, current prices in US
+	    dollars
+	38  Current account balance in U.S. dollars
+	39  Current account balance in Percent of GDP
 
 ------------------------------------------------------------------------------
 2.3 Target
@@ -405,401 +351,207 @@ the dataset.
 ------------------------------------------------------------------------------
 4.1 Advanced Countries List
 
-Andorra
-
-Australia
-
-Austria
-
-Belgium
-
-Canada
-
-Croatia
-
-Cyprus
-
-Czech Republic
-
-Denmark
-
-Estonia
-
-Finland
-
-France
-
-Germany
-
-Greece
-
-Hong Kong SAR
-
-Iceland
-
-Ireland
-
-Israel
-
-Italy
-
-Japan
-
-Korea
-
-Latvia
-
-Lithuania
-
-Luxembourg
-
-Macao SAR
-
-Malta
-
-Netherlands
-
-New Zealand
-
-Norway
-
-Portugal
-
-Puerto Rico
-
-San Marino
-
-Singapore
-
-Slovak Republic
-
-Slovenia
-
-Spain
-
-Sweden
-
-Switzerland
-
-Taiwan Province of China
-
-United Kingdom
-
-United States
+	Andorra
+	Australia
+	Austria
+	Belgium
+	Canada
+	Croatia
+	Cyprus
+	Czech Republic
+	Denmark
+	Estonia
+	Finland
+	France
+	Germany
+	Greece
+	Hong Kong SAR
+	Iceland
+	Ireland
+	Israel
+	Italy
+	Japan
+	Korea
+	Latvia
+	Lithuania
+	Luxembourg
+	Macao SAR
+	Malta
+	Netherlands
+	New Zealand
+	Norway
+	Portugal
+	Puerto Rico
+	San Marino
+	Singapore
+	Slovak Republic
+	Slovenia
+	Spain
+	Sweden
+	Switzerland
+	Taiwan Province of China
+	United Kingdom
+	United States
 
 ------------------------------------------------------------------------------
 4.2  Developing Countries List
 
-Afghanistan
-
-Albania
-
-Algeria
-
-Angola
-
-Antigua and Barbuda
-
-Argentina
-
-Armenia
-
-Aruba
-
-Azerbaijan
-
-The Bahamas
-
-Bahrain
-
-Bangladesh
-
-Barbados
-
-Belarus
-
-Belize
-
-Benin
-
-Bhutan
-
-Bolivia
-
-Bosnia and Herzegovina
-
-Botswana
-
-Brazil
-
-Brunei Darussalam
-
-Bulgaria
-
-Burkina Faso
-
-Burundi
-
-Cabo Verde
-
-Cambodia
-
-Cameroon
-
-Central African Republic
-
-Chad
-
-Chile
-
-China 
-
-Colombia
-
-Comoros
-
-Democratic Republic of the Congo 
-
-Republic of Congo
-
-Costa Rica
-
-Côte d'Ivoire
-
-Djibouti
-
-Dominica
-
-Dominican Republic
-
-Ecuador
-
-Egypt
-
-El Salvador
-
-Equatorial Guinea
-
-Eritrea
-
-Eswatini
-
-Ethiopia
-
-Fiji
-
-Gabon
-
-The Gambia
-
-Georgia
-
-Ghana
-
-Grenada
-
-Guatemala
-
-Guinea
-
-Guinea-Bissau
-
-Guyana
-
-Haiti
-
-Honduras
-
-Hungary
-
-India
-
-Indonesia
-
-Islamic Republic of Iran
-
-Iraq
-
-Jamaica
-
-Jordan
-
-Kazakhstan
-
-Kenya
-
-Kiribati
-
-Kosovo
-
-Kuwait
-
-Kyrgyz Republic
-
-Lao P.D.R.
-
-Lebanon
-
-Lesotho
-
-Liberia
-
-Libya
-
-Madagascar
-
-Malawi
-
-Malaysia
-
-Maldives
-
-Mali
-
-Marshall Islands
-
-Mauritania
-
-Mauritius
-
-Mexico
-
-Micronesia
-
-Moldova
-
-Mongolia
-
-Montenegro
-
-Morocco
-
-Mozambique
-
-Myanmar
-
-Namibia
-
-Nauru
-
-Nepal
-
-Nicaragua
-
-Niger
-
-Nigeria
-
-North Macedonia
-
-Oman
-
-Pakistan
-
-Palau
-
-Panama
-
-Papua New Guinea
-
-Paraguay
-
-Peru
-
-Philippines
-
-Poland
-
-Qatar
-
-Romania
-
-Russia
-
-Rwanda
-
-Samoa
-
-São Tomé and Príncipe
-
-Saudi Arabia
-
-Senegal
-
-Serbia
-
-Seychelles
-
-Sierra Leone
-
-Solomon Islands
-
-Somalia
-
-South Africa
-
-South Sudan
-
-Sri Lanka
-
-St. Kitts and Nevis
-
-St. Lucia
-
-St. Vincent and the Grenadines
-
-Sudan
-
-Suriname
-
-Syria - Of note Syria is dropped in our dataset due to no data being collected
-        since 2011 due to the ongoing Syrian Civil War
-
-Tajikistan
-
-Tanzania
-
-Thailand
-
-Timor-Leste
-
-Togo
-
-Tonga
-
-Trinidad and Tobago
-
-Tunisia
-
-Türkiye
-
-Turkmenistan
-
-Tuvalu
-
-Uganda
-
-Ukraine
-
-United Arab Emirates
-
-Uruguay
-
-Uzbekistan
-
-Vanuatu
-
-Venezuela
-
-Vietnam
-
-West Bank and Gaza
-
-Yemen
-
-Zambia
-
-Zimbabwe
+	Afghanistan
+	Albania
+	Algeria
+	Angola
+	Antigua and Barbuda
+	Argentina
+	Armenia
+	Aruba
+	Azerbaijan
+	The Bahamas
+	Bahrain
+	Bangladesh
+	Barbados
+	Belarus
+	Belize
+	Benin
+	Bhutan
+	Bolivia
+	Bosnia and Herzegovina
+	Botswana
+	Brazil
+	Brunei Darussalam
+	Bulgaria
+	Burkina Faso
+	Burundi
+	Cabo Verde
+	Cambodia
+	Cameroon
+	Central African Republic
+	Chad
+	Chile
+	China 
+	Colombia
+	Comoros
+	Democratic Republic of the Congo 
+	Republic of Congo
+	Costa Rica
+	Côte d'Ivoire
+	Djibouti
+	Dominica
+	Dominican Republic
+	Ecuador
+	Egypt
+	El Salvador
+	Equatorial Guinea
+	Eritrea
+	Eswatini
+	Ethiopia
+	Fiji
+	Gabon
+	The Gambia
+	Georgia
+	Ghana
+	Grenada
+	Guatemala
+	Guinea
+	Guinea-Bissau
+	Guyana
+	Haiti
+	Honduras
+	Hungary
+	India
+	Indonesia
+	Islamic Republic of Iran
+	Iraq
+	Jamaica
+	Jordan
+	Kazakhstan
+	Kenya
+	Kiribati
+	Kosovo
+	Kuwait
+	Kyrgyz Republic
+	Lao P.D.R.
+	Lebanon
+	Lesotho
+	Liberia
+	Libya
+	Madagascar
+	Malawi
+	Malaysia
+	Maldives
+	Mali
+	Marshall Islands
+	Mauritania
+	Mauritius
+	Mexico
+	Micronesia
+	Moldova
+	Mongolia
+	Montenegro
+	Morocco
+	Mozambique
+	Myanmar
+	Namibia
+	Nauru
+	Nepal
+	Nicaragua
+	Niger
+	Nigeria
+	North Macedonia
+	Oman
+	Pakistan
+	Palau
+	Panama
+	Papua New Guinea
+	Paraguay
+	Peru
+	Philippines
+	Poland
+	Qatar
+	Romania
+	Russia
+	Rwanda
+	Samoa
+	São Tomé and Príncipe
+	Saudi Arabia
+	Senegal
+	Serbia
+	Seychelles
+	Sierra Leone
+	Solomon Islands
+	Somalia
+	South Africa
+	South Sudan
+	Sri Lanka
+	St. Kitts and Nevis
+	St. Lucia
+	St. Vincent and the Grenadines
+	Sudan
+	Suriname
+	Syria - Of note Syria is dropped in our dataset due to no data being collected
+	        since 2011 due to the ongoing Syrian Civil War
+	Tajikistan
+	Tanzania
+	Thailand
+	Timor-Leste
+	Togo
+	Tonga
+	Trinidad and Tobago
+	Tunisia
+	Türkiye
+	Turkmenistan
+	Tuvalu
+	Uganda
+	Ukraine
+	United Arab Emirates
+	Uruguay
+	Uzbekistan
+	Vanuatu
+	Venezuela	
+	Vietnam	
+	West Bank and Gaza	
+	Yemen
+	Zambia
+	Zimbabwe
 
 <end of file>
 	
