@@ -69,6 +69,7 @@ The contents of this dataset is listed below
 
 ------------------------------------------------------------------------------
 1.1 Introduction
+
 Our goal for this project was to see if we could verify the classification of
 different countries as Advanced or Developing using real data and see if
 there are other potential categories being missed. We approached this using
