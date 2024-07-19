@@ -10,33 +10,50 @@ README CONTENTS
 0.1 Contact Information
 
 1.0 Release Contents
+
 1.1 Introduction
+
 1.2 Acknowledgements
+
 1.3 Rights Information
+
 1.4 Using this Database
+
 1.5 Revision History
 
 2.0 Data Tables
+
 2.1 Original IMF Format
+
 2.2 Processed Data Set Features
+
 2.3 Target
+
 2.4 Supervised Algorithms
+
 2.5 Clustering
 
 3.0 Results
+
 3.1 Supervised Results
+
 3.2 Clustering
+
 3.3 Conclusion
 
 4.0 Appendix
+
 4.1 Advanced Countries List
+
 4.2  Developing Countries List
 
 ------------------------------------------------------------------------------
 0.1 Contact Information
 
 Name:                Email:
+
 David Blankenship:   dwb65@drexel.edu
+
 Jai Vaidya:          jv625@drexel.edu
 
 ------------------------------------------------------------------------------
