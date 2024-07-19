@@ -93,6 +93,7 @@ class project at Drexel University in the Spring 2024 class.
 1.3 Rights Information
 
 International Monetary Fund
+
 The original data source was the World Economic Outlook Oct 2023 dataset made
 by the IMF. It is available at their website listed here:
 
@@ -105,17 +106,12 @@ This version of the database is available in a comma-separated value format.
 This data was put together in a Python 3 environment. Specifically, the
 Anaconda and Jupyter Notebook environment using the following packages:
 
-Pandas
-
-Numpy
-
-Sci-kit learn
-
-matplotlib
-
-seaborn
-
-joblib
+    Pandas
+    Numpy
+    Sci-kit learn
+    matplotlib
+    seaborn
+    joblib
 
 
 It is recommended to import the data into your environment from the
@@ -264,27 +260,39 @@ We used the following algorithms for the supervised learning with the
 selected hyperparameters:
 
 Logistic Regression
+
   Recursive Feature Elimination
+  
     Number of features to select: 1.0
     Steps: 0.1
+ 
   Model
+  
     Penalty: L1
     C: 100
 
 Decision Tree
+
   Recursive Feature Elimination
+  
     Number of features to select: 0.1
     Steps: 0.5
+ 
   Model
+  
     Max Depth: 10
     Minimum Samples Split: 2
     Minimum Samples Leaf: 1
 
 Random Forest
+
   Recursive Feature Elimination
+  
     Number of features to select: 0.75
     Steps: 1
+  
   Model
+  
     Max Depth: 10
     Minimum Samples Split: 2
     Minimum Samples Leaf: 1
@@ -299,24 +307,29 @@ PCA was then performed and 1st 2 components were fed into the models.
 We used the following algorithms:
 
 K Means Clustering
+
   Elbow Plot and Silhouette Score Plot to identify optimal K
+  
     Score for k = 2: -11803.636634895442
     Score for k = 3: -3640.8314135269616
 
 DBSCAN
-  min_samples = 5
-  eps = 0.1, 0.2...0.8
+
+    min_samples = 5
+    eps = 0.1, 0.2...0.8
 
 Agglomerative Clustering
-  n_clusters = 2
-  Linkages used = "ward", "average", "complete", "single"
+
+    n_clusters = 2
+    Linkages used = "ward", "average", "complete", "single"
 
 Gausian Mixture
-  n_components=2
-  covariance types = "full", "spherical", "diag", "tied"
-  AIC/BIC plot to identify optimal K
-  Best k: 5
-  Best Covariance Type: full
+
+    n_components=2
+    covariance types = "full", "spherical", "diag", "tied"
+    AIC/BIC plot to identify optimal K
+    Best k: 5
+    Best Covariance Type: full
 
 ------------------------------------------------------------------------------
 3.0 Results
@@ -328,38 +341,45 @@ to achieve these results, and a description of the challenges for each.
 3.1 Supervised Results
 
 Test Scores for Logistic Regression Model:
-F1 Score (Test): 0.8311688311688312
-Precision (Test): 0.8888888888888888
-Recall (Test): 0.7804878048780488
+
+    F1 Score (Test): 0.8311688311688312
+    Precision (Test): 0.8888888888888888
+    Recall (Test): 0.7804878048780488
 
 Test Scores for Decision Tree Model:
-F1 Score (Test): 0.9487179487179488
-Precision (Test): 1.0
-Recall (Test): 0.9024390243902439
+
+    F1 Score (Test): 0.9487179487179488
+    Precision (Test): 1.0
+    Recall (Test): 0.9024390243902439
 
 Test Scores for Random Forest Model:
-F1 Score (Test): 0.975609756097561
-Precision (Test): 0.975609756097561
-Recall (Test): 0.975609756097561
+
+    F1 Score (Test): 0.975609756097561
+    Precision (Test): 0.975609756097561
+    Recall (Test): 0.975609756097561
 
 ------------------------------------------------------------------------------
 3.2 Clustering
 
 K means (k=2)
-normalized_mutual_info_score: 0.3955383189940556
-adjusted_rand_score: 0.5777688363613122
+
+    normalized_mutual_info_score: 0.3955383189940556
+    adjusted_rand_score: 0.5777688363613122
 
 DBSCAN
-normalized_mutual_info_score: 0.05236904420828541
-adjusted_rand_score: 0.09107931503444604
+
+    normalized_mutual_info_score: 0.05236904420828541
+    adjusted_rand_score: 0.09107931503444604
 
 Agglomerative Clustering
-normalized_mutual_info_score: 0.00743805187377737
-adjusted_rand_score: 0.020076125670635537
+
+    normalized_mutual_info_score: 0.00743805187377737
+    adjusted_rand_score: 0.020076125670635537
 
 Gaussian Mixtures
-normalized_mutual_info_score: 0.17598207568900548
-adjusted_rand_score: 0.3344522403257472
+
+    normalized_mutual_info_score: 0.17598207568900548
+    adjusted_rand_score: 0.3344522403257472
 
 
 ------------------------------------------------------------------------------
